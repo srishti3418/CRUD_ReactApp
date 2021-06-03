@@ -1,0 +1,64 @@
+$border: 1px solid #212121;
+*{
+  font-family: "Poppins",sans-serif;
+  background: #333;
+}
+
+.list_leaderBoard__3T4JK {
+    display: flex;
+    padding: .5rem;
+    background-color: #212121;
+}
+
+.list_leaderItem__2_UTL {
+    margin-right: 1rem;
+    background-color: #212121;
+}
+
+.table {
+  border: $border;
+  border-collapse: collapse;
+  width: 70%;
+  margin-top: 51px;
+  text-align: center;
+  background-color: #212121;
+  h1{
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-bottom: 20px;
+}
+  tr {
+    th {
+      flex: 1 1;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-align: center;
+      min-width: 45px;
+      padding: .8rem;
+      background-color: #f90;
+      color: #212121;
+    }
+    td {
+      border: $border;
+      background-color: #212121;
+
+    button{
+      padding: .5rem 1rem;
+      background-color: #fff;
+      color: #212121;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin: 6px 4px;
+      border-radius: 2px;
+      font-weight: 500;
+      transition: all .1s ease-out;
+      }
+    }
+  }
+}
